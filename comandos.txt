@@ -1,0 +1,56 @@
+
+$ git config --global ---> para administrar las configuraciones globales y no locales
+
+$ git config --global user.name ---> para administrar el nombre como te vas a identificar
+
+$ git config --global user.email "correo@correo.com" ---> para configurar el correo con el que te vas a identificar
+
+
+$ git config --global --list ---> configuraciones globales
+
+$ git config --global core.editor "code --wait" ---> para configurar visual estudio code como IDE predeterminado
+
+
+$ git config --global color.ui true --> para cofigurar color de tu IDE
+ 
+$ git config --global autocrlf true ---> (solo para windows) para hacer un salto de linea y retornar al principio.
+
+
+__________________________________________________________________________________________________________________________________
+
+moverse entre carpetas 
+cd d:  ---> cd para decir que te vas a mover de directorio --- d: es el espacio a donde me quiero mover
+
+cd Desktop----> me movi a mi carperta de escritorio
+
+cd ../ para salir de donde estoy 
+
+---> solo puedes meterte o retroceder de uno en uno.
+
+crear carpetas
+
+mkdir ---> crear carpetas
+
+rmdir ---> eliminar carpetas
+
+____________________________________________________________________________________________________________________________________
+
+git init ---> inicializar git
+
+ls ----> ver que archivos hay en una carpeta
+pwd ---> para saber donde estamos
+
+git add ----> añadir al limbo
+	git add nombre.extension
+
+git rm --cached nombre.extension
+
+
+git commit----> subir archivos al repositorio
+
+git commit -a ----> subir directo al repositorio
+
+
+
+
+
